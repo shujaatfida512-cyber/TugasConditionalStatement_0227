@@ -34,7 +34,7 @@ string getStatus(float bmi) {
 
 int main() {
     float weight, height;
-    
+    // Welcoming meesage
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
     
     // Input data
