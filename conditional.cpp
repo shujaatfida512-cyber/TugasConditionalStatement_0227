@@ -12,6 +12,7 @@ void inputData(float &berat, float &tinggi) {
 
 // Function to calculate BMI
 float calculateBMI(float weight, float height) {
+    // arithmetic calculation of BMI
     return weight / (height * height);
 } 
 
