@@ -13,7 +13,7 @@ void inputData(float &weight, float &height) {
 // Function to calculate BMI
 float calculateBMI(float weight, float height) {
     return weight / (height * height);
-}
+} 
 
 // Function to determine weight status
 string getStatus(float bmi) {
