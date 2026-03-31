@@ -3,7 +3,7 @@
 using namespace std;
 
 // Procedure to input weight and height
-void inputData(float &weight, float &height) {
+void inputData(float &berat, float &tinggi) {
     cout << "Masukkan berat badan (kg): ";
     cin >> weight;
     cout << "Masukkan tinggi badan (meter): ";
