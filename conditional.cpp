@@ -18,13 +18,13 @@ float calculateBMI(float weight, float height) {
 
 // Function to determine weight status
 string getStatus(float bmi) {
-    if (bmi < 18.5) {
+    if (bmi < 18.500) {
         return "Berat Badan Kurang";
     } 
-    else if (bmi < 25) {
+    else if (bmi < 25.00) {
         return "Berat Badan Normal";
     } 
-    else if (bmi < 30) {
+    else if (bmi < 30.00) {
         return "Berat Badan Kelebihan";
     } 
     else {
